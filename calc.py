@@ -13,7 +13,7 @@ def divide(x, y):
 while True:
     num1 = int(input("Num1: "))
     num2 = int(input("Num2: "))
-    x = input("Calculator: Addition | Subtraction | Multiplication | Division | Exit").lower()
+    x = input("Calculator: Addition | Subtraction | Multiplication | Division | Exit\n").lower()
     if x == "addition":
         print(f"Ans: {add(num1, num2)}")
     elif x == "subtraction":
